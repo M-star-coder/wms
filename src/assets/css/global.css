@@ -1,0 +1,74 @@
+  body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, a {
+    margin: 0; 
+    padding: 0;
+    /*user-select: none;*/
+  }
+  html {
+    text-size-adjust: none;
+  }
+  body {
+    font-size: 14px; 
+    color: #333; 
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; 
+    background-color: #f0f2f5;
+  }
+  input, select, textarea {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  }
+  ul, ol {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    &:focus{
+      text-decoration: none;
+    }
+  }
+  sup {
+    vertical-align: text-top;
+  }
+  sub {
+    vertical-align: text-bottom;
+  }
+  legend {
+    color: #333;
+  }
+  fieldset, img {
+    border: 0;
+  }
+  table {
+    border-collapse: collapse; 
+    border-spacing: 0;
+  }
+  pre {
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    img{
+      max-width: 100%;
+    }
+  }
+  em {
+    font-style: normal;
+  }
+  img[src=""], img:not([src]) {
+    opacity: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+    &::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+    }
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+  }
+  .clearfix:after {
+    content: ""; 
+    display: block; 
+    visibility: hidden; 
+    clear: both; 
+    height: 0;
+  }
+ .el-cascader-panel{max-height: 400px;}
+ .el-message-box__wrapper{bottom:60%!important;top: 50px!important;}
